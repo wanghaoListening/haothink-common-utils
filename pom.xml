@@ -36,6 +36,7 @@
         <common.codec.version>1.10</common.codec.version>
         <fastjson.version>1.2.33</fastjson.version>
         <validator.version>6.0.10.Final</validator.version>
+        <rocketmq-version>3.2.6</rocketmq-version>
     </properties>
 
     <dependencies>
@@ -211,7 +212,6 @@
         </dependency>
         <!-- Servlet END -->
 
-
         <!-- Apache Commons  -->
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -249,7 +249,11 @@
             <version>${common.codec.version}</version>
         </dependency>
 
-
+        <dependency>
+            <groupId>com.alibaba.rocketmq</groupId>
+            <artifactId>rocketmq-client</artifactId>
+            <version>${rocketmq-version}</version>
+        </dependency>
 
     </dependencies>
 
