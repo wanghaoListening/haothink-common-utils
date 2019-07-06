@@ -37,6 +37,11 @@
         <fastjson.version>1.2.33</fastjson.version>
         <validator.version>6.0.10.Final</validator.version>
         <rocketmq-version>3.2.6</rocketmq-version>
+        <http.client.version>4.5.1</http.client.version>
+        <http.core.version>4.4.4</http.core.version>
+        <http.mime.version>4.5.1</http.mime.version>
+        <cat.version>2.0.1</cat.version>
+        <cat.dubbo.version>0.0.6</cat.dubbo.version>
     </properties>
 
     <dependencies>
@@ -255,6 +260,44 @@
             <version>${rocketmq-version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>${http.client.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpcore</artifactId>
+            <version>${http.core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpmime</artifactId>
+            <version>${http.mime.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.dianping.cat</groupId>
+            <artifactId>cat-client</artifactId>
+            <version>${cat.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>io.netty</groupId>
+                    <artifactId>netty-all</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>net.dubboclub</groupId>
+            <artifactId>cat-monitor</artifactId>
+            <version>${cat.dubbo.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>io.netty</groupId>
+                    <artifactId>netty-all</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
     </dependencies>
 
 
