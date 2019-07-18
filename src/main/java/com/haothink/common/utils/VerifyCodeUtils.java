@@ -269,7 +269,7 @@ public class VerifyCodeUtils {
 
     }
     public static void main(String[] args) throws IOException{
-        File dir = new File("/Users/pengfeihu/Downloads/");
+        File dir = new File("/Users/wanghao/Downloads/");
         int w = 200, h = 80;
         for(int i = 0; i < 1; i++){
             String verifyCode = generateVerifyCode(4);

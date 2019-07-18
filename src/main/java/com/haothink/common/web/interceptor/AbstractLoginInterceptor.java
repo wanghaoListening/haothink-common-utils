@@ -22,7 +22,7 @@ import java.io.PrintWriter;
 
 /**
  * 登陆拦截器
- * @author pengfeihu
+ * @author wanghao
  * @date 16/5/26
  */
 public class AbstractLoginInterceptor extends HandlerInterceptorAdapter {

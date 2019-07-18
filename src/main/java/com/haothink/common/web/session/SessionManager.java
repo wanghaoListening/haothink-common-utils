@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * 用户session管理类
- * Created by pengfeihu on 16/4/9.
+ * Created by wanghao on 16/4/9.
  */
 public class SessionManager implements SessionService {
 

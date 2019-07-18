@@ -3,7 +3,7 @@ package com.haothink.common.service;
 import java.io.Serializable;
 
 /**
- * Created by pengfeihu on 17/11/03.
+ * Created by wanghao on 17/11/03.
  */
 public interface Cache {
 

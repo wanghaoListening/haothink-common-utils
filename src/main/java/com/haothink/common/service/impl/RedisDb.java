@@ -7,7 +7,7 @@ import java.util.Set;
 
 /**
  * redis客户端 ，缓存在SSD上 持久化存储
- * Created by pengfeihu on 17/11/03.
+ * Created by wanghao on 17/11/03.
  */
 public class RedisDb extends AbstractRedisCache {
 

@@ -4,7 +4,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Created by pengfeihu on 17/11/03.
+ * Created by wanghao on 17/11/03.
  */
 public interface SessionService {
     /**

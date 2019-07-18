@@ -2,7 +2,7 @@ package com.haothink.common.constants;
 
 /**
  * 工具类常量集合
- * Created by pengfeihu on 17/11/03.
+ * Created by wanghao on 17/11/03.
  */
 public class Constants {
 

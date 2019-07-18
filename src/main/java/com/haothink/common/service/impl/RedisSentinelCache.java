@@ -6,13 +6,14 @@ import java.util.Set;
 
 /**
  * redis客户端 ，支持对象存储
- * Created by pengfeihu on 17/11/03.
+ * Created by wanghao on 17/11/03.
  */
 public class RedisSentinelCache extends AbstractRedisCache {
 
     private String masterName;
     private Set<String> sentinelSet;
 
+    @Override
     protected void init() {
         pool = new JedisSentinelPool(masterName, sentinelSet, getConfig(), DEFAULT_CONN_TIME_OUT, password);
     }

@@ -16,7 +16,7 @@ import java.util.Set;
 /**
  * Created by wanghao 2017/11/18
  *
- * @author pengfeihu
+ * @author wanghao
  */
 public class RedisClusterCache implements Cache {
 

@@ -2,7 +2,7 @@ package com.haothink.common.service;
 
 /**
  * 分布式锁服务
- * Created by pengfeihu on 16/5/18.
+ * Created by wanghao on 16/5/18.
  */
 public interface LockService {
 

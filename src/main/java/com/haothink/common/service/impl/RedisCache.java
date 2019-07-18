@@ -4,7 +4,7 @@ import redis.clients.jedis.JedisPool;
 
 /**
  * redis客户端 ，支持对象存储
- * Created by pengfeihu on 17/11/03.
+ * Created by wanghao on 17/11/03.
  */
 public class RedisCache extends AbstractRedisCache {
 

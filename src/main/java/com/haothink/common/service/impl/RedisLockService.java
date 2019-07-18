@@ -8,7 +8,7 @@ import redis.clients.jedis.exceptions.JedisConnectionException;
 
 /**
  * 基于redis的分布式锁服务
- * Created by pengfeihu on 16/5/18.
+ * Created by wanghao on 16/5/18.
  */
 public class RedisLockService implements LockService {
 
