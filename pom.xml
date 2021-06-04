@@ -37,7 +37,7 @@
         <fastjson.version>1.2.33</fastjson.version>
         <validator.version>6.0.10.Final</validator.version>
         <rocketmq-version>3.2.6</rocketmq-version>
-        <http.client.version>4.5.1</http.client.version>
+        <http.client.version>4.5.13</http.client.version>
         <http.core.version>4.4.4</http.core.version>
         <http.mime.version>4.5.1</http.mime.version>
         <cat.version>2.0.1</cat.version>
