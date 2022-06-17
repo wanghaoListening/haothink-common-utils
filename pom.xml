@@ -34,7 +34,7 @@
         <common.httpclient.version>3.1</common.httpclient.version>
         <common.beanutils.version>1.9.3</common.beanutils.version>
         <common.codec.version>1.10</common.codec.version>
-        <fastjson.version>1.2.33</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <validator.version>6.0.10.Final</validator.version>
         <rocketmq-version>3.2.6</rocketmq-version>
         <http.client.version>4.5.1</http.client.version>
