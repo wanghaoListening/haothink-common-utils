@@ -20,7 +20,7 @@
         <zkclient.version>0.1</zkclient.version>
         <junit.version>4.12</junit.version>
         <druid.version>1.1.5</druid.version>
-        <spring.version>4.3.10.RELEASE</spring.version>
+        <spring.version>6.0.0</spring.version>
         <spring.orm.version>3.2.9.RELEASE</spring.orm.version>
         <aspectjweaver.version>1.8.12</aspectjweaver.version>
         <log4j.version>1.2.17</log4j.version>
